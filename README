@@ -1,0 +1,32 @@
+-- An implementation of the non-interactive version of 'FIRST' algorithm
+
+-- test on Windows 7 + MATLAB R2017a
+
+-- For FINAL.m: please refer to the comments in the function
+
+-- INPUTS: 
+        S: The cross-network similarity between query and data graph
+        A: The adjacency matrix of data network
+        Q: The adjacency matrix of query
+        l: The size of searching space
+
+-- OUTPUTS:
+        EDGES: edge list of the matching subgraph
+        NODES: node list of the matching subgraph
+        MatchNode: matching nodes in the data network
+
+Paper: this implementation is based on the following paper:
+----------------------------------------------------------------
+        Boxin Du, Si Zhang, Nan Cao, Hanghang Tong
+        "First: Fast interactive attributed subgraph matching"
+        Proceedings of the 23rd ACM SIGKDD International Conference 
+        on Knowledge Discovery and Data Mining. ACM, 2017
+-----------------------------------------------------------------
+
+----------------------------------------------------------------
+        Zhang, Si, and Hanghang Tong. 
+        "FINAL: Fast Attributed Network Alignment." 
+        Proceedings of the 22nd ACM SIGKDD International Conference 
+        on Knowledge Discovery and Data Mining. ACM, 2016.
+-----------------------------------------------------------------
+
